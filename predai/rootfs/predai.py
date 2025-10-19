@@ -39,7 +39,7 @@ class HAInterface():
         if ha_url:
             self.ha_url = ha_url
         else:
-            self.ha_url = "http://supervisor/core"
+            self.ha_url = "http://192.168.188.117:8123"
 
         if ha_key:
             self.ha_key = ha_key
